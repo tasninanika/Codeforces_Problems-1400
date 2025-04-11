@@ -6,6 +6,9 @@ int main(){
     cin >> n >> t;
 
     vector<int> books(n);
+    for (int i = 0; i < n; i++) {
+        cin >> books[i];
+    }
 
 
 
