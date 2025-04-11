@@ -10,6 +10,9 @@ int main(){
         cin >> books[i];
     }
 
+    int start = 0;
+    long long current_time = 0;
+    int max_books = 0;
 
 
     return 0;
