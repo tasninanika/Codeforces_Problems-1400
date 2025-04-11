@@ -25,6 +25,9 @@ int main(){
         max_books = max(max_books, end - start + 1);
     }
 
+    cout << max_books << endl;
+
+
 
     return 0;
 }
