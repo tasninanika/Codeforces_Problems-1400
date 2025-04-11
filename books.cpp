@@ -14,6 +14,17 @@ int main(){
     long long current_time = 0;
     int max_books = 0;
 
+    for (int end = 0; end < n; end++) {
+        current_time += books[end];
+
+        while (current_time > t) {
+            current_time -= books[start];
+            start++;
+        }
+
+        max_books = max(max_books, end - start + 1);
+    }
+
 
     return 0;
 }
