@@ -14,6 +14,7 @@ int main(){
         else{
             m++;
         }
+        steps++;
     }
 
     return 0;
