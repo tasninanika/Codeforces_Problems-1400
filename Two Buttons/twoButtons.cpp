@@ -17,5 +17,7 @@ int main(){
         steps++;
     }
 
+    steps += (n - m);
+
     return 0;
 }
