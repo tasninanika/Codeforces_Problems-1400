@@ -7,5 +7,9 @@ int main(){
 
     int steps = 0;
 
+    while(m > n){
+
+    }
+
     return 0;
 }
