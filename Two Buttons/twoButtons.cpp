@@ -11,6 +11,9 @@ int main(){
         if(m % 2 == 0){
             m /= 2;
         }
+        else{
+            m++;
+        }
     }
 
     return 0;
