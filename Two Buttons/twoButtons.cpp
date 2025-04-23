@@ -9,7 +9,7 @@ int main(){
 
     while(m > n){
         if(m % 2 == 0){
-
+            m /= 2;
         }
     }
 
