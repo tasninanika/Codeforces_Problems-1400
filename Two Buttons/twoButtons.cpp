@@ -19,5 +19,7 @@ int main(){
 
     steps += (n - m);
 
+    cout << steps << endl;
+
     return 0;
 }
