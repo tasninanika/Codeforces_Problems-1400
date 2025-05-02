@@ -18,6 +18,8 @@ int main(){
         sum -= d;
     }
 
+    sum = s;
+
 
     return 0;
 }
