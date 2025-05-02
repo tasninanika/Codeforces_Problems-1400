@@ -19,6 +19,7 @@ int main(){
     }
 
     sum = s;
+    string minimum_num(m, '0');
 
 
     return 0;
