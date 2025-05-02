@@ -29,6 +29,8 @@ int main(){
         sum -= digit;
     }
 
+    cout << minimum_num << " " << maximum_num << endl;
+
 
     return 0;
 }
