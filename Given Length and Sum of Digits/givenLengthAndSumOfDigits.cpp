@@ -10,6 +10,8 @@ int main(){
         return 0;
     }
 
+    int sum = s;
+
 
     return 0;
 }
