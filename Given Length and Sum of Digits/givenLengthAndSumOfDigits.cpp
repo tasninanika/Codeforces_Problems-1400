@@ -14,6 +14,7 @@ int main(){
     string maximum_num = "";
     for(int i = 0; i < m; i++){
         int d = min(9, sum);
+        maximum_num += char('0' + d);
     }
 
 
