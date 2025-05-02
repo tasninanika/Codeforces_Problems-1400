@@ -11,6 +11,7 @@ int main(){
     }
 
     int sum = s;
+    string maximum_num = "";
 
 
     return 0;
