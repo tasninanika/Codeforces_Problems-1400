@@ -26,6 +26,7 @@ int main(){
             digit = 1;
         }
         minimum_num[i] = digit + '0';
+        sum -= digit;
     }
 
 
