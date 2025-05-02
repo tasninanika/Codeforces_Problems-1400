@@ -5,33 +5,42 @@ int main() {
     int m, s;
     cin >> m >> s;
 
-    if ((s == 0 && m > 1) || s > 9 * m) {
+    if (s == 0) {
+        if (m == 1) {
+            cout << "0 0" << endl;
+        } else {
+            cout << "-1 -1" << endl;
+        }
+        return 0;
+    }
+
+    string max_num = "";
+    int sum = s;
+
+    for (int i = 0; i < m; i++) {
+        int digit = min(9, sum);
+        max_num += (char)(digit + '0');
+        sum -= digit;
+    }
+
+    if (sum > 0) {
         cout << "-1 -1" << endl;
         return 0;
     }
 
-    int sum = s;
-    string maximum_num = "";
-    for (int i = 0; i < m; i++) {
-        int d = min(9, sum);
-        maximum_num += char('0' + d);
-        sum -= d;
+    string min_num = max_num;
+    reverse(min_num.begin(), min_num.end());
+
+
+    int i = 0;
+    while (min_num[i] == '0') {
+        i++;
     }
 
-    sum = s;
-    string minimum_num = "";
-    for (int i = 0; i < m; i++) {
-        int start = (i == 0) ? 1 : 0;
-        for (int d = start; d <= 9; d++) {
-            if (sum - d <= 9 * (m - i - 1)) {
-                minimum_num += char('0' + d);
-                sum -= d;
-                break;
-            }
-        }
-    }
+    min_num[i] = min_num[i] - 1;
+    min_num[0] = min_num[0] + 1;
 
-    cout << minimum_num << " " << maximum_num << endl;
+    cout << min_num << " " << max_num << endl;
 
     return 0;
 }
