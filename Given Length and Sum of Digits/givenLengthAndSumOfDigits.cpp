@@ -7,6 +7,7 @@ int main(){
 
     if((s == 0 && m > 1) || s > 9 * m){
         cout << "-1 -1" << endl;
+        return 0;
     }
 
 
