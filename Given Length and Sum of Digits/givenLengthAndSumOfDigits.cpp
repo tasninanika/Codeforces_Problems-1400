@@ -13,7 +13,7 @@ int main(){
     int sum = s;
     string maximum_num = "";
     for(int i = 0; i < m; i++){
-
+        int d = min(9, sum);
     }
 
 
