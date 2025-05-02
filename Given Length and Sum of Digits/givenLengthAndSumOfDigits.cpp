@@ -8,7 +8,8 @@ int main() {
     if (s == 0) {
         if (m == 1) {
             cout << "0 0" << endl;
-        } else {
+        }
+        else {
             cout << "-1 -1" << endl;
         }
         return 0;
