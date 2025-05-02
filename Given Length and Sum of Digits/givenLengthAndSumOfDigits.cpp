@@ -25,6 +25,7 @@ int main(){
         if(i == 0 && digit == 0 && m > 1){
             digit = 1;
         }
+        minimum_num[i] = digit + '0';
     }
 
 
