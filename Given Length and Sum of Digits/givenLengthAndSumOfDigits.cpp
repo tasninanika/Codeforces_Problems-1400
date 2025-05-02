@@ -20,6 +20,9 @@ int main(){
 
     sum = s;
     string minimum_num(m, '0');
+    for(int i = m - 1; i >= 0; i--){
+
+    }
 
 
     return 0;
