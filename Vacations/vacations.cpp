@@ -10,6 +10,8 @@ int main(){
         cin >> a[i];
     }
 
+    long long dp[n+1][3];
+
 
     return 0;
 }
