@@ -24,7 +24,9 @@ int main(){
     for(long long i = 1; i <= n; i++){
         dp[i][0] = 1 + min(dp[i-1][0], min(dp[i-1][1], dp[i-1][2]));
 
-        if(a[i-1] == 1 || a[i-1] == 3)
+        if(a[i-1] == 1 || a[i-1] == 3){
+           dp[i][1] = min(dp[i-1][0], dp[i-1][2]);
+        }
     }
 
 
