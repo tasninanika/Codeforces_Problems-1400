@@ -6,6 +6,9 @@ int main(){
     cin >> n;
 
     long long a[n];
+    for(long long i = 0; i < n; i++){
+
+    }
 
 
     return 0;
