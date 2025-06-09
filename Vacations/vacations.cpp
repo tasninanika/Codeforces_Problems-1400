@@ -14,6 +14,7 @@ int main(){
     for(long long i = 0; i <= n; i++){
         dp[i][0] = INT_MAX;
         dp[i][1] = INT_MAX;
+        dp[i][2] = INT_MAX;
     }
 
 
