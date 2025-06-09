@@ -11,6 +11,9 @@ int main(){
     }
 
     long long dp[n+1][3];
+    for(long long i = 0; i <= n; i++){
+
+    }
 
 
     return 0;
