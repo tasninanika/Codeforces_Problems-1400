@@ -34,5 +34,6 @@ int main(){
     }
 
     cout << min(dp[n][0], min(dp[n][1], dp[n][2]));
+
     return 0;
 }
