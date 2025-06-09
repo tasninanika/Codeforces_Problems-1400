@@ -16,6 +16,9 @@ int main(){
         if(n >= 0){
             cout << "YES" << endl;
         }
+        else{
+
+        }
     }
 
 
