@@ -22,7 +22,9 @@ int main(){
         long long sum = 0;
 
         for(int i = med; i < n; i++){
-
+            if(v[i] <= mid){
+                sum += (mid - v[i]);
+            }
         }
     }
 
