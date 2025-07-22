@@ -20,6 +20,10 @@ int main(){
         long long mid = low + (high - low) / 2;
 
         long long sum = 0;
+
+        for(int i = med; i < n; i++){
+
+        }
     }
 
 
