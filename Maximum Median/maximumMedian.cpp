@@ -29,6 +29,10 @@ int main(){
                 break;
             }
         }
+
+        if(sum <= k){
+
+        }
     }
 
 
