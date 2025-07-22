@@ -31,7 +31,7 @@ int main(){
         }
 
         if(sum <= k){
-
+            ans = max(ans, mid);
         }
     }
 
