@@ -12,6 +12,7 @@ int main(){
 
     sort(v.begin(), v.end());
     int med = n / 2;
+    long long ans = v[med];
 
 
     return 0;
