@@ -14,6 +14,8 @@ int main(){
     int med = n / 2;
     long long ans = v[med];
 
+    long long low = 0, high = 1e18;
+
 
     return 0;
 }
