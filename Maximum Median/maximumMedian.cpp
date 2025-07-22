@@ -34,6 +34,9 @@ int main(){
             ans = max(ans, mid);
             low = mid + 1;
         }
+        else{
+
+        }
     }
 
 
