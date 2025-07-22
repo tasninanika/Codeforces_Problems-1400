@@ -25,6 +25,9 @@ int main(){
             if(v[i] <= mid){
                 sum += (mid - v[i]);
             }
+            if(sum > k){
+                break;
+            }
         }
     }
 
