@@ -11,6 +11,7 @@ int main(){
     }
 
     sort(v.begin(), v.end());
+    int med = n / 2;
 
 
     return 0;
