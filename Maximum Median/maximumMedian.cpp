@@ -16,6 +16,10 @@ int main(){
 
     long long low = 0, high = 1e18;
 
+    while(low <= high){
+
+    }
+
 
     return 0;
 }
