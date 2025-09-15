@@ -26,6 +26,10 @@ int main(){
     int n = factors.size();
     long long ansA = 1e18, ansB = 1e18;
 
+    for(int mask = 0; mask < (1 << n); mask++){
+
+    }
+
 
     return 0;
 }
