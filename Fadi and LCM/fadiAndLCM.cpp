@@ -15,6 +15,7 @@ int main(){
                     x /= i;
                     cur *= i;
                 }
+                factors.push_back(cur);
             }
         }
     }
