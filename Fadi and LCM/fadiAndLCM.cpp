@@ -24,6 +24,7 @@ int main(){
     }
 
     int n = factors.size();
+    long long ansA = 1e18, ansB = 1e18;
 
 
     return 0;
