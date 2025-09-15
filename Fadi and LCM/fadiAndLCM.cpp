@@ -27,7 +27,7 @@ int main(){
     long long ansA = 1e18, ansB = 1e18;
 
     for(int mask = 0; mask < (1 << n); mask++){
-
+        long long a = 1, b = 1;
     }
 
 
