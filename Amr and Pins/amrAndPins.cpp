@@ -11,7 +11,7 @@ int main() {
 
     int steps = ceil(dist / (2.0 * r));
 
-    cout << steps << "\n";
+    cout << steps << endl;
     return 0;
 }
 
