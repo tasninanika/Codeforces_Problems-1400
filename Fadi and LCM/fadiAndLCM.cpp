@@ -11,6 +11,9 @@ int main(){
             long long cur = 1;
             while(x % i == 0){
                 long long cur = 1;
+                while(x % i == 0){
+
+                }
             }
         }
     }
