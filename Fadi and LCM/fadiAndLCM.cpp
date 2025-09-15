@@ -23,6 +23,8 @@ int main(){
         factors.push_back(x);
     }
 
+    int n = factors.size();
+
 
     return 0;
 }
