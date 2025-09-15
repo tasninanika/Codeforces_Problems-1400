@@ -29,7 +29,7 @@ int main(){
     for(int mask = 0; mask < (1 << n); mask++){
         long long a = 1, b = 1;
         for(int j = 0; j < n; j++){
-
+            if (mask & (1 << j)) a *= factors[j];
         }
     }
 
