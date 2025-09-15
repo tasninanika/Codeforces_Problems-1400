@@ -20,7 +20,7 @@ int main(){
         }
     }
     if(x > 1){
-
+        factors.push_back(x);
     }
 
 
