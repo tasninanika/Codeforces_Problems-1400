@@ -39,6 +39,7 @@ int main(){
             ansB = b;
         }
     }
+    cout << ansA << " " << ansB << endl;
 
 
     return 0;
