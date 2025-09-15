@@ -34,6 +34,10 @@ int main(){
             else
                 b *= factors[j];
         }
+        if (max(a, b) < max(ansA, ansB)) {
+            ansA = a;
+            ansB = b;
+        }
     }
 
 
