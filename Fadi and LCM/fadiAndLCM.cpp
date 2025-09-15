@@ -6,6 +6,9 @@ int main(){
     cin >> x;
 
     vector<long long> factors;
+    for(long long i = 2; i * i <= x; i++){
+
+    }
 
 
     return 0;
