@@ -40,7 +40,7 @@ int main() {
         ans = (ans + dp[k][i]) % MOD;
     }
 
-    cout << ans << "\n";
+    cout << ans << endl
     return 0;
 }
 
