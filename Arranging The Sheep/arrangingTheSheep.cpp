@@ -24,7 +24,7 @@ void solve() {
         ans += abs(sheeps[i] - (sheeps[index] - index + i));
     }
 
-    cout << ans << '\n';
+    cout << ans << endl;
 }
 
 int main() {
