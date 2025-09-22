@@ -28,7 +28,7 @@ int main(){
                     dp[i] = max(dp[i], 1 + dp[j]);
                 }
                 if(a[i/j] < a[i]){
-
+                    dp[i] = max(dp[i], 1 + dp[i / j]);
                 }
             }
         }
