@@ -24,6 +24,9 @@ int main(){
                 if(i % j != 0){
                     continue;
                 }
+                if(a[j] < a[i]){
+
+                }
             }
         }
     }
