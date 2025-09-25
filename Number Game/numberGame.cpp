@@ -33,7 +33,7 @@ int main(){
                 long long odd_prime_factors = 0;
                  while(d * d <= temp){
                     if(temp % d == 0){
-
+                        odd_prime_factors++;
                     }
                  }
             }
