@@ -15,6 +15,9 @@ int main(){
         else if(n == 2){
             cout << "Ashishgup" << endl;
         }
+        else if(n % 2 != 0){
+
+        }
     }
 
 
