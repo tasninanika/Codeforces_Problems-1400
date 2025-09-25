@@ -46,7 +46,7 @@ int main(){
                  long long original_n = n;
                  long long two_count = 0;
                  while(original_n % 2 == 0){
-
+                    original_n /= 2;
                  }
             }
         }
