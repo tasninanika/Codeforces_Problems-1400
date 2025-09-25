@@ -10,7 +10,7 @@ int main(){
         cin >> n;
 
         if(n == 1){
-
+            cout << "FastestFinger" << endl;
         }
     }
 
