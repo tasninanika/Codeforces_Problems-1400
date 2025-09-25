@@ -54,7 +54,7 @@ int main(){
                     cout << "FastestFinger" << endl;
                  }
                  else{
-
+                    cout << "Ashishgup" << endl;
                  }
             }
         }
