@@ -12,6 +12,9 @@ int main(){
         if(n == 1){
             cout << "FastestFinger" << endl;
         }
+        else if(n == 2){
+
+        }
     }
 
 
