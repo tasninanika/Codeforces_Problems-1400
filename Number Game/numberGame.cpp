@@ -43,6 +43,7 @@ int main(){
                  if(temp > 1){
                     odd_prime_factors++;
                  }
+                 long long original_n = n;
             }
         }
     }
