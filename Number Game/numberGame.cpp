@@ -18,6 +18,9 @@ int main(){
         else if(n % 2 != 0){
             cout << "Ashishgup" << endl;
         }
+        else{
+
+        }
     }
 
 
