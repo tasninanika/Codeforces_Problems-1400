@@ -16,7 +16,7 @@ int main(){
             cout << "Ashishgup" << endl;
         }
         else if(n % 2 != 0){
-
+            cout << "Ashishgup" << endl;
         }
     }
 
