@@ -22,7 +22,8 @@ int main(){
             long long odd_count = 0;
             long long temp = n;
 
-             while(temp % 2 == 0)
+             while(temp % 2 == 0){
+                temp /= 2;
             }
         }
     }
