@@ -21,6 +21,9 @@ int main(){
         else{
             long long odd_count = 0;
             long long temp = n;
+
+             while(temp % 2 == 0)
+            }
         }
     }
 
