@@ -29,7 +29,7 @@ int main(){
                 cout << "FastestFinger" << endl;
             }
             else{
-
+                long long d = 3;
             }
         }
     }
