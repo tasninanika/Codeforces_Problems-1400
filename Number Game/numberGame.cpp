@@ -19,7 +19,7 @@ int main(){
             cout << "Ashishgup" << endl;
         }
         else{
-
+            long long odd_count = 0;
         }
     }
 
