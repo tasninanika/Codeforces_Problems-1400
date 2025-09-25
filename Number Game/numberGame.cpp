@@ -41,7 +41,7 @@ int main(){
                     d += 2;
                  }
                  if(temp > 1){
-
+                    odd_prime_factors++;
                  }
             }
         }
