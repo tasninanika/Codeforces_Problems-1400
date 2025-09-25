@@ -34,6 +34,9 @@ int main(){
                  while(d * d <= temp){
                     if(temp % d == 0){
                         odd_prime_factors++;
+                        while(temp % d == 0){
+
+                        }
                     }
                  }
             }
