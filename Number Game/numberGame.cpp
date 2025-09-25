@@ -49,6 +49,10 @@ int main(){
                     original_n /= 2;
                     two_count++;
                  }
+
+                 if(two_count == 1 && odd_prime_factors == 1){
+
+                 }
             }
         }
     }
