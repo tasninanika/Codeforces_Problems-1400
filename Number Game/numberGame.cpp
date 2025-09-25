@@ -53,6 +53,9 @@ int main(){
                  if(two_count == 1 && odd_prime_factors == 1){
                     cout << "FastestFinger" << endl;
                  }
+                 else{
+
+                 }
             }
         }
     }
