@@ -13,7 +13,7 @@ int main(){
             cout << "FastestFinger" << endl;
         }
         else if(n == 2){
-
+            cout << "Ashishgup" << endl;
         }
     }
 
