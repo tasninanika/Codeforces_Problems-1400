@@ -30,6 +30,7 @@ int main(){
             }
             else{
                 long long d = 3;
+                long long odd_prime_factors = 0;
             }
         }
     }
