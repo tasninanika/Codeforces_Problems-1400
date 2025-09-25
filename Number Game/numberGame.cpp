@@ -28,6 +28,9 @@ int main(){
             if(temp == 1){
                 cout << "FastestFinger" << endl;
             }
+            else{
+
+            }
         }
     }
 
