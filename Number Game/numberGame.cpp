@@ -26,7 +26,7 @@ int main(){
                 temp /= 2;
             }
             if(temp == 1){
-
+                cout << "FastestFinger" << endl;
             }
         }
     }
