@@ -44,6 +44,7 @@ int main(){
                     odd_prime_factors++;
                  }
                  long long original_n = n;
+                 long long two_count = 0;
             }
         }
     }
