@@ -12,6 +12,7 @@ bool isPrime(long long x) {
 int main() {
     int t;
     cin >> t;
+
     while (t--) {
         long long n;
         cin >> n;
@@ -23,7 +24,6 @@ int main() {
             cout << "Ashishgup\n";
         }
         else {
-            // check power of two
             if ((n & (n - 1)) == 0) {
                 cout << "FastestFinger\n";
             }
@@ -32,8 +32,10 @@ int main() {
             }
             else {
                 long long odd = n / 2;
-                if (isPrime(odd)) cout << "FastestFinger\n";
-                else cout << "Ashishgup\n";
+                if (isPrime(odd))
+                    cout << "FastestFinger\n";
+                else
+                cout << "Ashishgup\n";
             }
         }
     }
