@@ -1,65 +1,41 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+bool isPrime(long long x) {
+    if (x < 2) return false;
+    for (long long i = 2; i * i <= x; i++) {
+        if (x % i == 0) return false;
+    }
+    return true;
+}
+
+int main() {
     int t;
     cin >> t;
-
-    while(t--){
+    while (t--) {
         long long n;
         cin >> n;
 
-        if(n == 1){
-            cout << "FastestFinger" << endl;
+        if (n == 1) {
+            cout << "FastestFinger\n";
         }
-        else if(n == 2){
-            cout << "Ashishgup" << endl;
+        else if (n == 2 || n % 2 == 1) {
+            cout << "Ashishgup\n";
         }
-        else if(n % 2 != 0){
-            cout << "Ashishgup" << endl;
-        }
-        else{
-            long long odd_count = 0;
-            long long temp = n;
-
-             while(temp % 2 == 0){
-                temp /= 2;
+        else {
+            // check power of two
+            if ((n & (n - 1)) == 0) {
+                cout << "FastestFinger\n";
             }
-            if(temp == 1){
-                cout << "FastestFinger" << endl;
+            else if (n % 4 == 0) {
+                cout << "Ashishgup\n";
             }
-            else{
-                long long d = 3;
-                long long odd_prime_factors = 0;
-                 while(d * d <= temp){
-                    if(temp % d == 0){
-                        odd_prime_factors++;
-                        while(temp % d == 0){
-                            temp /= d;
-                        }
-                    }
-                    d += 2;
-                 }
-                 if(temp > 1){
-                    odd_prime_factors++;
-                 }
-                 long long original_n = n;
-                 long long two_count = 0;
-                 while(original_n % 2 == 0){
-                    original_n /= 2;
-                    two_count++;
-                 }
-
-                 if(two_count == 1 && odd_prime_factors == 1){
-                    cout << "FastestFinger" << endl;
-                 }
-                 else{
-                    cout << "Ashishgup" << endl;
-                 }
+            else {
+                long long odd = n / 2;
+                if (isPrime(odd)) cout << "FastestFinger\n";
+                else cout << "Ashishgup\n";
             }
         }
     }
-
-
     return 0;
 }
