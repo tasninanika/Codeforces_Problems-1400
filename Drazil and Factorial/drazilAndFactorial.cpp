@@ -8,6 +8,7 @@ int main(){
 
     int n;
     string str;
+    cin >> n >> str;
 
 
 
