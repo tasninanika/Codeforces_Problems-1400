@@ -17,6 +17,8 @@ int main(){
 
     sort(res.rbegin(), res.rend());
 
+    cout << res;
+
 
 
     return 0;
