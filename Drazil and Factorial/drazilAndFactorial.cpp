@@ -10,6 +10,8 @@ int main(){
     string str;
     cin >> n >> str;
 
+    string res;
+
 
 
     return 0;
