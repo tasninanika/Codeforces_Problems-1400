@@ -15,6 +15,8 @@ int main(){
         res += mp[str[i]];
     }
 
+    sort(res.rbegin(), res.rend());
+
 
 
     return 0;
