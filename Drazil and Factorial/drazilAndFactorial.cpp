@@ -11,6 +11,9 @@ int main(){
     cin >> n >> str;
 
     string res;
+    for(int i = 0; i < str.size(); i++){
+
+    }
 
 
 
