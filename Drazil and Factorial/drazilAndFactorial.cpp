@@ -12,7 +12,7 @@ int main(){
 
     string res;
     for(int i = 0; i < str.size(); i++){
-
+        res += mp[str[i]];
     }
 
 
