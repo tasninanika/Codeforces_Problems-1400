@@ -13,6 +13,11 @@ int main(){
         int cnt = 0;
         for(int i = 0; i < n; i++){
             int temp;
+            cin >> temp;
+
+            if(temp % k){
+                fr[k - temp % k]++;
+            }
         }
     }
 
