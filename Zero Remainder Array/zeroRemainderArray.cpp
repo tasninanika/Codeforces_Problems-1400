@@ -17,6 +17,7 @@ int main(){
 
             if(temp % k){
                 fr[k - temp % k]++;
+                cnt++;
             }
         }
     }
