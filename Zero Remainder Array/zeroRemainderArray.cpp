@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n, k;
         cin >> n >> k;
+
+        map<int,int> fr;
     }
 
 
