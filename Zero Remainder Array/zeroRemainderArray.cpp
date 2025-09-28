@@ -35,6 +35,7 @@ int main(){
                 rem = x;
             }
         }
+        cout << 1LL * (ma - 1) * k + rem + 1 << endl;
     }
 
 
