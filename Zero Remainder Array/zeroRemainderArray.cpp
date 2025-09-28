@@ -10,6 +10,7 @@ int main(){
         cin >> n >> k;
 
         map<int,int> fr;
+        int cnt = 0;
     }
 
 
