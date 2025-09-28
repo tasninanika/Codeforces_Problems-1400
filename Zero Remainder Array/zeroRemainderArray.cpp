@@ -23,6 +23,7 @@ int main(){
 
         if(cnt == 0){
             cout << 0 << endl;
+            return;
         }
     }
 
