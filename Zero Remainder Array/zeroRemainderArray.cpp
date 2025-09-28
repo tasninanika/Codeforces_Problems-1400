@@ -25,6 +25,9 @@ int main(){
             cout << 0 << endl;
             return;
         }
+
+        int ma = 0;
+        int rem;
     }
 
 
