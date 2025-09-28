@@ -29,7 +29,12 @@ int main(){
         int ma = 0;
         int rem;
 
-        for(auto [x,y] : fr)
+        for(auto [x,y] : fr){
+            if(ma <= y){
+                ma = y;
+                rem = x;
+            }
+        }
     }
 
 
